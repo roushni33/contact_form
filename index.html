@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit=" sendEmail(event);">
+            <h3>Get In Touch</h3><br>
+
+            <input type="text" id="name" placeholder="Enter name" required>
+            <input type="email" id="email" placeholder="Enter Email id" required>
+            <input type="text" id="phone" placeholder="Enter  Phone number" required>
+            <textarea id="message" rows="4" placeholder="Enter your Query..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
