@@ -36,6 +36,8 @@ form {
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 2px 2px 30px var(--cranberry-400),-2px -2px 30px var(--cranberry-400) ;
+    
 }
 
 
@@ -85,12 +87,16 @@ form button {
     border: 0;
     outline: var(--cranberry-600);
     cursor: pointer;
+    height: 50px;
     width: 150px;
     margin: 20px auto 0;
     border-radius: 25px;
     cursor: pointer;
     transition: transform 1s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
